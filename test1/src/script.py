@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 
 #
-from conf import settings
-from src import base
+from test1.conf import settings
+
 
 def run():
     if settings.MODE == 'Agent':
