@@ -14,11 +14,12 @@ class BaseCls():
         raise NotImplementedError('You must redefine this method in your derive class!')
 
 class SBaseCls(BaseCls):
-    def send_asset(self):
+    def get_asset(self):
         pass
 
-class Agent(BaseCls):
+class Salt(SBaseCls):
     def process(self):
-        # 1. 采集数据
+        return self.linux()
 
-        # 2. 发送数据至API
+    def linux(self):
+        pass

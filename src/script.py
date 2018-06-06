@@ -7,4 +7,4 @@ from src import base
 
 def run():
     if settings.MODE == 'Agent':
-        client =
+        client = ''
